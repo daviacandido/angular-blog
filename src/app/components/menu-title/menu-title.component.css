@@ -1,0 +1,27 @@
+.container__menu-title {
+  color: white;
+  text-transform: uppercase;
+}
+
+.container__menu-title hr {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(209, 209, 209, 0.521),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.container__menu-title h1 {
+  font-family: "segoe UI";
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 7.813rem;
+  display: flex;
+  font-weight: bolder;
+  justify-content: center;
+}
