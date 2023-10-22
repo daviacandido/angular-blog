@@ -1,22 +1,13 @@
 <div class="container__big-card">
   <a href="#"
     ><div class="big-card__image">
-      <img
-        src="https://www.unfe.org/wp-content/uploads/2019/04/SM-placeholder-1024x512.png"
-        height="200px"
-        alt="Image"
-      />
+      <img src="{{ photoCover }}" height="200px" alt="Image" />
     </div>
     <div class="big-card__title">
-      <h1>Lorem Ipsum</h1>
+      <h1>{{ cardTitle }}</h1>
     </div>
   </a>
   <div class="big-card__description">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis
-      ullamcorper augue, et consectetur risus condimentum auctor. Vestibulum
-      lobortis lacus a quam auctor rutrum. In tempor semper sem. In consequat
-      nec mi id aliquet.
-    </p>
+    <p>{{ cardDescription }}</p>
   </div>
 </div>
