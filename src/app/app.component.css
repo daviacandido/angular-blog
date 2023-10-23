@@ -1,0 +1,17 @@
+header {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  margin-bottom: 5px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(209, 209, 209, 0.521),
+    rgba(255, 255, 255, 0)
+  );
+}
